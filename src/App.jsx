@@ -1,8 +1,12 @@
 import React from 'react'
+import Login from './forms/Login'
 
 const App = () => {
   return (
-    <div className='text-red-400'>App</div>
+    <div className=''>
+      <Login/>
+
+    </div>
   )
 }
 
