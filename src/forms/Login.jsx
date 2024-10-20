@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { PiArrowBendRightDownThin } from 'react-icons/pi';
 import { FaFile } from 'react-icons/fa';
 import { ImEyeBlocked } from 'react-icons/im';
 import { CornerDownLeft, FileText } from 'lucide-react';
 
 const Login = () => {
+  const [showPassword , setShowPassword] = useState(false) 
+
+  // function to show password 
+  const showPass = ()=>{
+    setShowPassword(!showPassword) 
+    
+  }
   return (
     <div className="w-full   py-[4rem] ">
       {/* div containing image and the form */}
@@ -59,13 +66,13 @@ const Login = () => {
                 focus-within:border-[#409C7C] focus-within:ring-[1.3px] focus-within:ring-[#409C7C]"
             >
               <input
-                type="text"
+                type={`${showPassword ? "text" : "Password"}`}
                 placeholder="Password"
-                className="w-[80%] outline-none"
+                className="w-[80%] outline-none "
                 id="password"
               />
-              <div>
-                <ImEyeBlocked className="black text-[1.5rem]" />
+              <div onClick={showPass}>
+                <ImEyeBlocked className="black text-[1.5rem] cursor-pointer" />
               </div>
             </div>
           </div>
