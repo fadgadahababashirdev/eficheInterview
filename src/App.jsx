@@ -3,6 +3,9 @@ import Login from './forms/Login';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import ChooseRole from './Pages/ChooseRole';
 
+import Sidebar from './components/Sidebar';
+import NurseDashboard from './Dashboard/NurseDashboard';
+
 const App = () => {
   return (
     <div className="">
@@ -10,6 +13,7 @@ const App = () => {
         <Routes>
           <Route path="/"element={<Login/>}></Route> 
           <Route path="/role"element={<ChooseRole/>}></Route>
+          <Route path="/Nurse"element={<NurseDashboard/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
