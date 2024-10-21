@@ -41,13 +41,13 @@ const ChooseRole = () => {
           <div className='flex justify-center my-[.3rem]'>
             <div className=' block md:flex gap-[1rem] '>
                 {/* facility */}
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
                  <h1 className='text-lg'>Facility Admin</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div> 
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
                  <h1 className='text-lg'>Receptionist</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div>
             </div> 
            
@@ -58,13 +58,13 @@ const ChooseRole = () => {
           <div className='flex justify-center my-[1rem] md:my-[1rem]'>
             <div className='block md:flex gap-[1rem]  '>
                 {/* facility */}
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
                  <h1 className='text-lg'>Lab technician</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div> 
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
                  <h1 className='text-lg'>Radiology technician</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div>
             </div> 
            
@@ -75,13 +75,13 @@ const ChooseRole = () => {
           <div className='flex justify-center my-[1rem] md:my-[1rem]'>
             <div className='block md:flex gap-[1rem]   '>
                 {/* facility */}
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
                  <h1 className='text-lg'>Audiologist</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div> 
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
                  <h1 className='text-lg'>Pharmacist</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div>
             </div> 
            
@@ -92,13 +92,13 @@ const ChooseRole = () => {
           <div className='flex justify-center my-[1rem] md:my-[1rem]'>
             <div className='block md:flex gap-[1rem]'>
                 {/* facility */}
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
                  <h1 className='text-lg'>Cashier</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div> 
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] '>
                  <h1 className='text-lg'>Nurse</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div>
             </div> 
            
@@ -109,13 +109,13 @@ const ChooseRole = () => {
           <div className='flex justify-center my-[1rem] md:my-[1rem]'>
             <div className='block md:flex gap-[1rem]'>
                 {/* facility */}
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
                  <h1 className='text-lg'>Accountant</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div> 
-                <div className='flex justify-between border-2 border-slate-300 rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
+                <div className='flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] md:my-0'>
                  <h1 className='text-lg'>Dentist</h1> 
-                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-slate-300'/>
+                 <input type="radio" className='appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]'/>
                 </div>
             </div> 
            
