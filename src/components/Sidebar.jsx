@@ -9,7 +9,7 @@ import { IoGridOutline } from 'react-icons/io5'
 
 const Sidebar = () => {
   return (
-    <div className='w-[11.5rem] h-screen  border border-r-[0.4px] flex justify-center py-[2rem]'> 
+    <div className='w-[11.5rem] fixed left-0 top-0 h-screen  border border-r-[0.4px] flex justify-center py-[2rem]'> 
         {/* file and heading  div*/}
       <div>
       <div className='flex justify-between h-fit gap-2'>
