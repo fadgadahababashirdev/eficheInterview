@@ -13,19 +13,19 @@ const Sidebar = () => {
         {/* file and heading  div*/}
       <div>
       <div className='flex justify-between h-fit gap-2'>
-            <div className='flex  items-center'><FaFile className='text-[1.3rem]  text-[#409C7C]'/></div>
+            <div className='flex  items-center'><FaFile className='text-[1.3rem]  text-[#27a376]'/></div>
             <div><h1 className=' text-[1.6rem] font-bold'>eFiche</h1></div>
         </div> 
          {/* menu icon */}
-        <div className='flex justify-center bg-[#409C7C] p-5 rounded-xl my-[2rem]'><IoGridOutline className='text-white text-[1.2rem]'/></div>
+        <div className='flex justify-center bg-[#27a376] p-5 rounded-xl my-[2rem]'><IoGridOutline className='text-white text-[1rem]'/></div>
         {/* person */} 
-        <div className='flex justify-center my-[2rem]'><GoPersonAdd className='text-gray-400 text-[1.2rem]'/></div> 
+        <div className='flex justify-center my-[2rem]'><GoPersonAdd className='text-[#a0aec0] text-[1rem]'/></div> 
         {/* calender */}
-        <div className='flex justify-center my-[2rem]'><Calendar className='text-gray-400 text-[1.2rem]'/></div>
+        <div className='flex justify-center my-[2rem]'><Calendar className='text-[#a0aec0] text-[1rem]'/></div>
          {/*clipboard list */}
-        <div className='flex justify-center my-[2rem]'><ClipboardList className='text-gray-400 text-[1.2rem]'/></div> 
+        <div className='flex justify-center my-[2rem]'><ClipboardList className='text-[#a0aec0] text-[1rem]'/></div> 
         {/*  */}
-        <div className='flex justify-center my-[2rem]'><Users2 className='text-gray-400 text-[1.2rem]'/></div> 
+        <div className='flex justify-center my-[2rem]'><Users2 className='text-[#a0aec0] text-[1rem]'/></div> 
         
       </div>
        
