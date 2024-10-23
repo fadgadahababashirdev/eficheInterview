@@ -4,6 +4,7 @@ import { FaArrowRight, FaLongArrowAltRight } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import Stats from './Stats';
 import DataNumberTwo from './DataNumberTwo';
+import { Link } from 'react-router-dom';
 
 const DataNumber = () => {
   return (
@@ -22,6 +23,7 @@ const DataNumber = () => {
       </section>
 
       <section className="bg-white p-5 rounded-lg my-[1rem] flex justify-between">
+       <Link to="/Report">
         <div>
           <h1 className="para text-sm  font-medium">Current consultations</h1>
           <h1 className="font-semibold text-[1.9rem] para my-[1rem]">07</h1>
@@ -34,6 +36,20 @@ const DataNumber = () => {
             </div>
           </div>
         </div>
+       </Link>
+ <div>
+          <h1 className="para text-sm  font-medium">Current consultations</h1>
+          <h1 className="font-semibold text-[1.9rem] para my-[1rem]">07</h1>
+          <div className="text-xs  flex gap-4 items-center">
+            <div className="text-[#27a376] cursor-pointer">
+              Go to my consultations
+            </div>
+            <div>
+              <FaArrowRightLong className="text-[#27a376] cursor-pointer" />
+            </div>
+          </div>
+        </div>
+
         <div className="flex justify-between">
           <div>
             <h1 className="para text-sm font-medium">Current admissions</h1>
