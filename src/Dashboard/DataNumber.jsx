@@ -3,6 +3,7 @@ import React from 'react';
 import { FaArrowRight, FaLongArrowAltRight } from 'react-icons/fa';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import Stats from './Stats';
+import DataNumberTwo from './DataNumberTwo';
 
 const DataNumber = () => {
   return (
@@ -84,8 +85,12 @@ const DataNumber = () => {
       <section>
         
           {' '}
-          <Stats />
+          <Stats /> 
+         
        
+      </section> 
+      <section>
+       <DataNumberTwo/>
       </section>
     </div>
   );

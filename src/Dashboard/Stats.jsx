@@ -57,7 +57,7 @@ const Stats = () => {
         </div>
 
         <div className="w-full flex">
-          <div className="w-[15rem] border-r border-1 border-[#F1F2F4] py-4">
+          <div className="w-[15rem] border-r border-1 border-[#F1F2F4] py-6">
             <div className="bg-[rgb(248,248,248)] p-2 w-[3rem] h-[3rem] flex items-center justify-center rounded-full">
               <FaArrowLeftLong className="w-3" />
             </div>
@@ -77,7 +77,7 @@ const Stats = () => {
             <h1 className="para text-[14px] font-medium">Consultations</h1>
           </div>
 
-          <div className="w-[15rem]  pl-6   py-4">
+          <div className="w-[15rem]  pl-6   py-6">
             <div className="bg-[#F8F8F8] p-2 w-[3rem] h-[3rem] flex items-center justify-center rounded-full">
               <FaArrowRightLong className="w-3" />
             </div>
@@ -86,7 +86,7 @@ const Stats = () => {
               <div className="text-[2rem] para font-semibold">07</div>
               <div className="flex items-center justify-center  gap-2 bg-[#ffedec] rounded-xl h-4 p-4">
                 <div>
-                  <TrendingDown className="w-4 h-10 text-[#E03137]" />
+                  <TrendingDown className="w-3 h-10 text-[#E03137]" />
                 </div>
 
                 <div className="text-xs text-[#E03137] font-semibold ">

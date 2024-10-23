@@ -82,7 +82,7 @@ export default function ConsultationChart() {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig} className="mt-[1rem]">
+        <ChartContainer config={chartConfig} className="mt-[2rem]">
           <LineChart
             data={chartData}
             margin={{
