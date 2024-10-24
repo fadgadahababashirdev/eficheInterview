@@ -9,7 +9,7 @@ const NurseTable = () => {
   return (
     <div className="flex">
       <Sidebar />
-      <div className="w-full">
+      <div className="w-full  ">
         <Navbar />
         <NurseT/>
       </div>

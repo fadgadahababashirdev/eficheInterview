@@ -4,7 +4,7 @@ import { PiLessThanBold, PiLessThanLight } from 'react-icons/pi';
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between px-[2rem] py-[1rem] relative">
+    <div className="flex justify-between relative">
       <div className=''>
         <div className="flex gap-4 items-center">
           <div>

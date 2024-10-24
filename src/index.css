@@ -31,7 +31,11 @@ input::placeholder{
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}  
+input::placeholder{
+  color:#CBD5E0
 } 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
