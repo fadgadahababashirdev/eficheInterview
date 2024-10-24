@@ -109,13 +109,13 @@ const ChooseRole = () => {
                   className="appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]"
                 />
               </div>
-              <div className="flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center  w-[16rem] my-[1rem] md:my-[1rem] ">
+              <Link to="/Nurse"> <div className="flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center cursor-pointer w-[16rem] my-[1rem] md:my-[1rem] ">
                 <h1 className="text-lg">Nurse</h1>
-               <Link to="/Nurse"> <input
+                <input
                   type="radio"
                   className="appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]"
-                /></Link>
-              </div>
+                />
+              </div></Link>
             </div>
           </div>
           <div className="flex justify-center my-[1rem] md:my-[1rem]">
