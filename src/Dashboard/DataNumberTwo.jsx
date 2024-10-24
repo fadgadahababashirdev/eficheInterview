@@ -50,7 +50,7 @@ const DataNumberTwo = () => {
             </h1>
           </div>
           <div className="text-[2rem] para font-semibold mt-[1.2rem]  mb-[-.8rem]">
-            07
+            11
           </div>
         </div>
         <div className="w-full  h-full pl-[3rem] ">

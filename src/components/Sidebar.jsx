@@ -21,9 +21,10 @@ const Sidebar = () => {
           </div>
         </Link>
         {/* menu icon */}
-        <div className="flex justify-center bg-[#27a376] p-5 rounded-xl my-[2rem]">
+       <Link to="/Nurse">
+       <div className="flex justify-center bg-[#27a376] p-5 rounded-xl my-[2rem]">
           <IoGridOutline className="text-white text-[1rem]" />
-        </div>
+        </div></Link>
         {/* person */}
         <div className="flex justify-center my-[2rem]">
           <GoPersonAdd className="text-[#a0aec0] text-[1rem]" />

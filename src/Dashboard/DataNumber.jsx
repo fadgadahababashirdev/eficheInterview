@@ -37,18 +37,7 @@ const DataNumber = () => {
           </div>
         </div>
        </Link>
- <div>
-          <h1 className="para text-sm  font-medium">Current consultations</h1>
-          <h1 className="font-semibold text-[1.9rem] para my-[1rem]">07</h1>
-          <div className="text-xs  flex gap-4 items-center">
-            <div className="text-[#27a376] cursor-pointer">
-              Go to my consultations
-            </div>
-            <div>
-              <FaArrowRightLong className="text-[#27a376] cursor-pointer" />
-            </div>
-          </div>
-        </div>
+
 
         <div className="flex justify-between">
           <div>
