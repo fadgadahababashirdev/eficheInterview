@@ -149,15 +149,23 @@ const ChooseRole = () => {
           </div>
         </div>
 
-        <div className=" w-[35rem] bg-green-400   rounded-2xl   hidden xl:flex justify-end relative ml-[8rem] mr-[-5rem]">
-          <img src="../image.png" alt="" className="h-full" />
-          <div className="absolute z-20 w-full h-full bg-emerald-500 opacity-50 top-0 rounded-3xl flex justify-center items-center"></div>
-          <div className="top-0 absolute z-30 w-full h-full flex justify-center items-center">
+        <div className="w-[40rem] bg-green-400 rounded-2xl hidden md:flex justify-end relative ml-[4rem] mr-[-5rem] overflow-hidden">
+        <img 
+          src="../image.png" 
+          alt="" 
+          className="h-full w-full object-cover"
+          style={{
+            animation: 'zoomIn 15s forwards',
+            transformOrigin: 'center center'
+          }}
+        />
+           <div className="absolute z-20 w-full h-full bg-[#3aa97f] opacity-50 top-0 rounded-3xl flex justify-center items-center"></div>
+           <div className="top-0 absolute z-30 w-full h-full flex justify-center items-center">
             <div className="px-[.5rem]">
-              <h1 className="text-[2.4rem] text-center text-white font-semibold ">
+              <h1 className="text-[3rem] md:text-[1.5rem] xl:text-[2.5rem]  text-center text-white ">
                 Streamlined and digitised <br /> medical experience
               </h1>
-              <p className="text-center text-[1rem] text-white mt-[2rem] rob">
+              <p className="text-center text-[1.1rem] md:text-[.8rem]  xl:text-[.9rem] font-thin text-white mt-[2rem] jakarta ">
                 Enhanced data accessibility leads to improved <br />
                 patient outcomes , increased efficiency , and more <br />
                 effective reporting.
@@ -173,5 +181,16 @@ const ChooseRole = () => {
     </div>
   );
 };
-
+const style = document.createElement('style');
+style.textContent = `
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+`;
+document.head.appendChild(style);
 export default ChooseRole;

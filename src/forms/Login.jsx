@@ -131,7 +131,7 @@ const Login = () => {
   );
 };
 
-// Add this to your global CSS file
+
 const style = document.createElement('style');
 style.textContent = `
 @keyframes zoomIn {
