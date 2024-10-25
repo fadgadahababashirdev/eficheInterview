@@ -8,9 +8,9 @@ const MenuDown = () => {
     setOpenMenu(!openMenu);
   };
   return (
-    <div className="border relative border-l-0  border-slate-200 cursor-pointer border-1 rounded-r-xl flex items-center p-5" onClick={handleOpenMenu}>
+    <div className="border  relative md:border-l-0   border-slate-200 cursor-pointer border-1 rounded-r-xl flex items-center p-5" onClick={handleOpenMenu}>
       <IoIosArrowDown className="w-4 h-4 " />
-      <div className={`bg-white p-2 w-[11.5rem] h-[28rem] absolute mt-[32rem] left-[-8rem] rounded-lg transform transition-all duration-300 ease-in-out ${
+      <div className={`bg-white  p-2 w-[11.5rem] h-[28rem] absolute  mt-[35rem]  md:mt-[32rem] md:left-[-8rem] rounded-lg transform transition-all duration-300 ease-in-out ${
         openMenu ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"
       }`}>
         {/* Nurse */}

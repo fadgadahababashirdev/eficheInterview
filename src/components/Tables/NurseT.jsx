@@ -13,11 +13,11 @@ import PatientTable from './PatientTable';
 const NurseT = () => {
   return (
     <div className="bg-[#f1f2f4] absolute left-[12%] w-[88%]  px-[3.5rem] p-5 mt-[6rem] ">
-    <section className='bg-white rounded-xl px-[2rem] py-[2rem]'>
-     <Navbar/> 
-     <SearchAndFilter/>
-     <PatientTable/>
-    </section>
+      <section className="bg-white rounded-xl px-[2rem] py-[2rem]">
+        <Navbar />
+        <SearchAndFilter />
+        <PatientTable />
+      </section>
     </div>
   );
 };

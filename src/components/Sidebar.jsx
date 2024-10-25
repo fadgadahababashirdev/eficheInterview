@@ -5,15 +5,12 @@ import { GoPersonAdd } from 'react-icons/go';
 import { IoGridOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 
-const Sidebar = ({handleShowSideBar}) => {
+const Sidebar = () => {
  
   return (
     <>
     <div className="">
-        <div className="flex items-center my-2 md:my-0  md:hidden border w-10 h-10 justify-center border-slate-200 rounded-md p-2" onClick={handleShowSideBar}>
-          {' '}
-          <FaTimes className="w-4 h-4" />
-        </div>
+       
         
         <div className=''>
           <Link to="/Nurse">
