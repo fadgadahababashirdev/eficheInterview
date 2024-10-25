@@ -50,7 +50,7 @@ const chartConfig = {
 
 export default function ConsultationChart() {
   return (
-    <Card className="rounded-none h-full shadow-none border-0">
+    <Card className="rounded-none object-cover shadow-none border-0   ">
       <CardHeader className="">
         <CardTitle >
           <div className="flex justify-between">
@@ -81,8 +81,8 @@ export default function ConsultationChart() {
           </div>
         </CardDescription>
       </CardHeader>
-      <CardContent>
-        <ChartContainer config={chartConfig} className="mt-[2rem]">
+      <CardContent className="mb-[rem]">
+        <ChartContainer config={chartConfig} className="">
           <LineChart
             data={chartData}
             margin={{

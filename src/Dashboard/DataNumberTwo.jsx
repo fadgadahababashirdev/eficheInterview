@@ -3,7 +3,8 @@ import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { GoPeople } from 'react-icons/go';
 import { IoMdCodeWorking } from 'react-icons/io';
-import { IoBagHandleOutline, IoHappyOutline } from 'react-icons/io5';
+import { IoBagHandleOutline, IoHappyOutline } from 'react-icons/io5'; 
+import { LiaTimesSolid } from "react-icons/lia";
 
 const DataNumberTwo = () => {
   return (
@@ -14,7 +15,7 @@ const DataNumberTwo = () => {
         <div className="w-full h-full border-r-[1.6px]  border-[#F1F2F4]">
           <div className="flex gap-4 items-center">
             <div className="bg-[#F8F8F8] p-2 w-[3rem] h-[3rem] flex items-center justify-center rounded-full">
-              <Check className="w-3" />
+              <Check className="w-5" />
             </div>
             <h1 className="para text-[14px] font-medium">
               Available <br />
@@ -28,7 +29,7 @@ const DataNumberTwo = () => {
         <div className="w-full h-full border-r-[1.6px]  border-[#F1F2F4] pl-[3rem]  ">
           <div className="flex gap-4 items-center">
             <div className="bg-[#F8F8F8] p-2 w-[3rem] h-[3rem] flex items-center justify-center rounded-full">
-              <FaTimes className="w-3" />
+              <LiaTimesSolid className="w-5" />
             </div>
             <h1 className="para text-[14px] font-medium">
               Occupied <br />
@@ -42,7 +43,7 @@ const DataNumberTwo = () => {
         <div className="w-full h-full border-r-[1.6px]  border-[#F1F2F4] pl-[3rem]  ">
           <div className="flex gap-4 items-center">
             <div className="bg-[#F8F8F8] p-2 w-[3rem] h-[3rem] flex items-center justify-center rounded-full">
-              <LucideClipboardList className="w-3" />
+              <LucideClipboardList className="w-5" />
             </div>
             <h1 className="para text-[14px] font-medium">
               Transfers <br />
@@ -56,7 +57,7 @@ const DataNumberTwo = () => {
         <div className="w-full  h-full pl-[3rem] ">
           <div className="flex gap-4 items-center">
             <div className="bg-[#F8F8F8] p-2 w-[3rem] h-[3rem] flex items-center justify-center rounded-full">
-              <IoHappyOutline className="w-3" />
+              <IoHappyOutline className="w-5" />
             </div>
             <h1 className="para text-[14px] font-medium">
               Discharge <br />

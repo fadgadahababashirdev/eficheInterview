@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
-    <div className="w-[11.5rem] fixed left-0 top-0 h-screen  border border-r-[0.4px] flex justify-center py-[2rem]">
+    <div>
       {/* file and heading  div*/}
       <div>
         <Link to="/Nurse">
