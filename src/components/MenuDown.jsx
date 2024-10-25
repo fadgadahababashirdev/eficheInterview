@@ -15,7 +15,7 @@ const MenuDown = () => {
       }`}>
         {/* Nurse */}
         <div className="bg-[#f8f8f8] p-4 rounded-xl text-center flex justify-between">
-          <h1 className="font-bold rob">Nurse</h1>
+          <h1 className="para rob ">Nurse</h1>
           <div>
             <Check className="text-[#27a376]" />
           </div>
@@ -30,7 +30,7 @@ const MenuDown = () => {
           'Scientist',
         ].map((title) => (
           <div className="pl-1 py-4 rounded-xl text-center flex " key={title}>
-            <h1 className="font-bold rob">{title}</h1>
+            <h1 className="para rob ">{title}</h1>
           </div>
         ))}
       </div>

@@ -3,7 +3,7 @@ import { PiArrowBendRightDownThin } from 'react-icons/pi';
 import { FaFile } from 'react-icons/fa';
 import { ImEyeBlocked } from 'react-icons/im';
 import { CornerDownLeft, FileText } from 'lucide-react';
-import {Link} from "react-router-dom"
+import { Link } from 'react-router-dom';
 
 const ChooseRole = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -109,13 +109,16 @@ const ChooseRole = () => {
                   className="appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]"
                 />
               </div>
-              <Link to="/Nurse"> <div className="flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center cursor-pointer w-[16rem] my-[1rem] md:my-[1rem] ">
-                <h1 className="text-lg">Nurse</h1>
-                <input
-                  type="radio"
-                  className="appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]"
-                />
-              </div></Link>
+              <Link to="/Nurse">
+                {' '}
+                <div className="flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center cursor-pointer w-[16rem] my-[1rem] md:my-[1rem] ">
+                  <h1 className="text-lg">Nurse</h1>
+                  <input
+                    type="radio"
+                    className="appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]"
+                  />
+                </div>
+              </Link>
             </div>
           </div>
           <div className="flex justify-center my-[1rem] md:my-[1rem]">
@@ -150,17 +153,17 @@ const ChooseRole = () => {
         </div>
 
         <div className="w-[40rem] bg-green-400 rounded-2xl hidden md:flex justify-end relative ml-[4rem] mr-[-5rem] overflow-hidden">
-        <img 
-          src="../image.png" 
-          alt="" 
-          className="h-full w-full object-cover"
-          style={{
-            animation: 'zoomIn 15s forwards',
-            transformOrigin: 'center center'
-          }}
-        />
-           <div className="absolute z-20 w-full h-full bg-[#3aa97f] opacity-50 top-0 rounded-3xl flex justify-center items-center"></div>
-           <div className="top-0 absolute z-30 w-full h-full flex justify-center items-center">
+          <img
+            src="../image.png"
+            alt=""
+            className="h-full w-full object-cover"
+            style={{
+              animation: 'zoomIn 15s forwards',
+              transformOrigin: 'center center',
+            }}
+          />
+          <div className="absolute z-20 w-full h-full bg-[#3aa97f] opacity-50 top-0 rounded-3xl flex justify-center items-center"></div>
+          <div className="top-0 absolute z-30 w-full h-full flex justify-center items-center">
             <div className="px-[.5rem]">
               <h1 className="text-[3rem] md:text-[1.5rem] xl:text-[2.5rem]  text-center text-white ">
                 Streamlined and digitised <br /> medical experience
