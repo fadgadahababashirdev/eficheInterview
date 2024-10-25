@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const DataNumber = () => {
   return (
-    <div className="bg-[#f1f2f4] absolute left-[12%] w-[88%]  px-[4rem] p-5 mt-[6rem]">
+    <div className="bg-[#f1f2f4]  absolute xl:left-[12%] xl:w-[88%]  xl:px-[4rem] p-4 xl:p-5 mt-[6rem]">
       {/* greetings */}
       <section className="">
         <h1 className="text-[1.5rem] font-semibold flex gap-2">
