@@ -68,7 +68,8 @@ const DataNumberTwo = () => {
             32
           </div>
         </div>
-      </div>
+      </div> 
+    
     </div>
   );
 };

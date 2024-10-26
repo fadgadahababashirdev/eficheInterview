@@ -6,6 +6,7 @@ import ChooseRole from './Pages/ChooseRole';
 import Sidebar from './components/Sidebar';
 import NurseDashboard from './Dashboard/NurseDashboard';
 import NurseTable from './Dashboard/NurseTable';
+import Dashboard from './Dashboard/Dashboard';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
         <Routes>
           <Route path="/"element={<Login/>}></Route> 
           <Route path="/role"element={<ChooseRole/>}></Route>
-          <Route path="/Nurse"element={<NurseDashboard/>}></Route>
+          <Route path="/Dashboard"element={<Dashboard/>}></Route>
           <Route path='/Report' element={<NurseTable/>}></Route>
         </Routes>
       </BrowserRouter>

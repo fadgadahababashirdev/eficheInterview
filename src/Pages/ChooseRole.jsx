@@ -109,7 +109,7 @@ const ChooseRole = () => {
                   className="appearance-none w-6 h-6 rounded-full border-2 border-[#E5E7EB]"
                 />
               </div>
-              <Link to="/Nurse">
+              <Link to="/Dashboard">
                 {' '}
                 <div className="flex justify-between border-2 border-[#E5E7EB] rounded-2xl p-4 items-center cursor-pointer w-[16rem] my-[1rem] md:my-[1rem] ">
                   <h1 className="text-lg">Nurse</h1>

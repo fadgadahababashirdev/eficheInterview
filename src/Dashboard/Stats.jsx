@@ -8,7 +8,7 @@ import { GoPeople } from 'react-icons/go';
 import { IoBriefcaseOutline } from 'react-icons/io5';
 
 
-const Stats = () => {
+const Stats = ({consultation}) => {
   return (
     <div className="bg-white rounded-md flex py-2 justify-between px-2  mt-[2rem]">
       <div className="w-full grid grid-cols-2 py-[1rem] ">
@@ -29,7 +29,7 @@ const Stats = () => {
                 </div>
               </div>
             </div>
-            <h1 className="para text-sm font-medium">Consultations</h1>
+            <h1 className="para text-sm font-medium cursor-pointer" onClick={consultation}>Consultations</h1>
           </div>
         </div>
         <div className="w-full  h-full border-b  py-[1rem] px-[1rem]">

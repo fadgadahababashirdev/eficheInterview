@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar';
 import Navbar from '../components/Navbar';
 import DataNumber from './DataNumber';
 import Stats from './Stats';
+import ConsultationCard from '@/components/ConsultationCard';
 
 const NurseDashboard = () => {
   const [handleShowSideBar, setHandleShowSidebar] = useState(false);
@@ -10,7 +11,8 @@ const NurseDashboard = () => {
     setHandleShowSidebar(!handleShowSideBar);
   };
   return (
-    <div className="flex">
+    <div className="flex"> 
+   
       <div
         className={`${
           handleShowSideBar
@@ -19,13 +21,17 @@ const NurseDashboard = () => {
         }`}
       >
         <Sidebar />
-      </div>
+      </div> 
 
-      <div className="w-full">
+   
+
+      <div className="w-full ">
         <Navbar handleShowSideBar={handleShowSideBarFunction} />
 
-        <DataNumber/> 
-      </div>
+        <DataNumber /> 
+      
+      </div> 
+   
     </div>
   );
 };
