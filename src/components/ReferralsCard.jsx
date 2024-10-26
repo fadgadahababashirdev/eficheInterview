@@ -19,7 +19,7 @@ const ReferralsCard = ({ referalls }) => {
         mounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
       }`}
     >
-      <div className="bg-white p-4 border-red-300 rounded-lg w-full md:w-[40rem]">
+      <div className="bg-white p-4 border-red-300 rounded-lg w-full  md:w-[40rem]">
         <div className="flex justify-between items-center mb-4">
           <div>
             <h1 className="text-black">Referrals</h1>

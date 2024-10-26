@@ -14,8 +14,8 @@ const ConsultationCard = ({ consultation }) => {
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
       <div
-        className={`transform transition-all duration-300 ease-in-out ${
-          mounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
+        className={`mx-4 transform transition-all duration-300 ease-in-out ${
+          mounted ? 'mx-4  translate-y-0 opacity-100' : ' mx-4 translate-y-full opacity-0'
         }`}
       >
         <div className="bg-white p-[2rem] border-red-300 rounded-lg w-full md:w-[40rem]">

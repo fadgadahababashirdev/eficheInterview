@@ -15,8 +15,10 @@ const AdmissionsCard = ({ admission }) => {
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center">
       <div
-        className={`transform transition-all duration-300 ease-in-out ${
-          mounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
+        className={` transform transition-all duration-300 ease-in-out ${
+          mounted
+            ? '  translate-y-0 opacity-100'
+            : ' translate-y-full opacity-0'
         }`}
       >
         <div className="bg-white p-4 border-red-300 rounded-lg w-full md:w-[40rem]">
@@ -38,20 +40,18 @@ const AdmissionsCard = ({ admission }) => {
                   <IoPersonOutline className="text-[#27a376]" />
                 </div>
                 <h1 className="text-[#687588] text-[.9rem] my-4">
-                 Current Admission                </h1>
+                  Current Admission{' '}
+                </h1>
                 <h1 className="para text-black">10</h1>
               </div>
               <div className="bg-[#f0fffa] p-5 rounded-lg  w-full">
                 <div className="bg-white rounded-full border-[1.5px] border-[#e7f7ef] w-[2rem] h-[2rem] flex justify-center items-center p-2">
                   <LucideLogOut className="text-[#27a376]" />
                 </div>
-                <h1 className="text-[#687588] text-[.9rem] my-4">
-                Discharge
-                </h1>
+                <h1 className="text-[#687588] text-[.9rem] my-4">Discharge</h1>
                 <h1 className="para text-black">05</h1>
               </div>
             </div>
-           
           </div>
         </div>
       </div>

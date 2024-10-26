@@ -33,7 +33,7 @@ const DataNumber = () => {
     <>
       {/* Green overlay section */}
       {consultationNumber && (
-        <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
+        <section className="fixed  inset-0  bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
           <div className="text-white text-2xl">
             <ConsultationCard consultation={handleConsultation} />
           </div>
