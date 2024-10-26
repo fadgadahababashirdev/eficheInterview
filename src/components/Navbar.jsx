@@ -7,7 +7,7 @@ import { Menu } from 'lucide-react';
 const Navbar = ({handleShowSideBar}) => {
   return (
     <div className=" px-4 xl:px-0 border-b bg-white w-screen xl:w-[88%] z-40 xl:z-50 fixed top-0  xl:left-[12%] h-[6.5rem] flex justify-between items-center">
-      <MenuDown />
+     <div className='ml-[3.5rem]'><MenuDown /></div>
    
       <div className='flex gap-4'>
         {' '}

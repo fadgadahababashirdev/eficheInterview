@@ -8,9 +8,9 @@ const MenuDown = () => {
     setOpenMenu(!openMenu);
   };
   return (
-    <div className="border  relative xl:border-l-0  z-50  border-slate-200 cursor-pointer border-1 rounded-r-xl flex items-center p-5" onClick={handleOpenMenu}>
-      <IoIosArrowDown className="w-4 h-4 " />
-      <div className={`bg-white  p-2 w-[11.5rem] h-[28rem] absolute  mt-[35rem]  xl:mt-[32rem] xl:left-[-8.5rem] rounded-lg transform transition-all duration-300 ease-in-out ${
+    <div className="border  relative  z-50  border-slate-200 cursor-pointer border-1 flex items-center p-5 md:p-2 md:px-4 rounded-lg" onClick={handleOpenMenu}>
+     <div className='gap-3 flex justify-between items-center'><span>Nurse</span> <IoIosArrowDown className="w-4 h-4 " /></div>
+      <div className={`bg-white  p-2 w-[11.5rem] h-[28rem] absolute  mt-[35rem]  xl:mt-[32rem] xl:left-[.04rem] rounded-lg transform transition-all duration-300 ease-in-out ${
         openMenu ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"
       }`}>
         {/* Nurse */}
