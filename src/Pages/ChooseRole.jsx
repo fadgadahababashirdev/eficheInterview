@@ -152,7 +152,7 @@ const ChooseRole = () => {
           </div>
         </div>
 
-        <div className="w-[40rem] bg-green-400 rounded-2xl hidden md:flex justify-end relative ml-[4rem] mr-[-5rem] overflow-hidden">
+        <div className="w-[40rem] 2xl:w-[60rem] bg-green-400 rounded-2xl hidden md:flex justify-end relative ml-[4rem] mr-[-5rem] 2xl:ml-[20rem] overflow-hidden">
           <img
             src="../image.png"
             alt=""
