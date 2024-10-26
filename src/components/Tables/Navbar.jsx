@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className=''>
         <div className="flex gap-4 items-center">
           <div>
-          <Link to="/Nurse"><IoIosArrowBack className="w-5 h-5 text-[#a0aec0] " /></Link>
+          <Link to="/dashboard"><IoIosArrowBack className="w-5 h-5 text-[#a0aec0] " /></Link>
           </div>
           <div className="">
             <h1 className="text-[1.4rem] mt-2 font-semibold para">
