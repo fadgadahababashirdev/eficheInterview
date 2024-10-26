@@ -1,3 +1,4 @@
+import { LucideLogOut } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
 
 import { GoPeople } from 'react-icons/go';
@@ -31,8 +32,8 @@ const AdmissionsCard = ({ admission }) => {
             </div>
           </div>
           <div>
-            <div className="flex gap-2 justify-between items-center ">
-              <div className="bg-[#f0fffa] p-5 rounded-md w-full">
+            <div className="flex gap-4 justify-between items-center ">
+              <div className="bg-[#f0fffa] p-5 rounded-lg  w-full">
                 <div className="bg-white rounded-full border-[1.5px] border-[#e7f7ef] w-[2rem] h-[2rem] flex justify-center items-center p-2">
                   <IoPersonOutline className="text-[#27a376]" />
                 </div>
@@ -40,9 +41,9 @@ const AdmissionsCard = ({ admission }) => {
                  Current Admission                </h1>
                 <h1 className="para text-black">10</h1>
               </div>
-              <div className="bg-[#f0fffa] p-5 rounded-md w-full">
+              <div className="bg-[#f0fffa] p-5 rounded-lg  w-full">
                 <div className="bg-white rounded-full border-[1.5px] border-[#e7f7ef] w-[2rem] h-[2rem] flex justify-center items-center p-2">
-                  <GoPeople className="text-[#27a376]" />
+                  <LucideLogOut className="text-[#27a376]" />
                 </div>
                 <h1 className="text-[#687588] text-[.9rem] my-4">
                 Discharge
