@@ -6,39 +6,58 @@ import Stats from './Stats';
 import DataNumberTwo from './DataNumberTwo';
 import { Link } from 'react-router-dom';
 import ConsultationCard from '@/components/ConsultationCard';
-import AddmisionsCard from "@/components/AddmisionsCard"
+import AddmisionsCard from '@/components/AddmisionsCard';
 import Appoitments from '@/components/AppoitmentsCard';
+import ReferralsCard from '@/components/ReferralsCard';
 
 const DataNumber = () => {
-  const [consultationNumber, setConsultationNumber] = useState(false); 
+  const [consultationNumber, setConsultationNumber] = useState(false);
   const [admissions, setAdmissions] = useState(false);
-  const [appoitments , setAppoitments] = useState(false)
+  const [appoitments, setAppoitments] = useState(false);
+  const [referalls, setReferalls] = useState(false);
+  console.log("The referalls is " , referalls)
   const handleConsultation = () => {
     setConsultationNumber(!consultationNumber);
-  }; 
+  };
   const handleAdmissions = () => {
     setAdmissions(!admissions);
-  }; 
+  };
 
   const handleAppoitments = () => {
     setAppoitments(!appoitments);
+  };
+  const handleReferalls = () => {
+    setReferalls(!referalls);
   };
   return (
     <>
       {/* Green overlay section */}
       {consultationNumber && (
         <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
-          <div className="text-white text-2xl"><ConsultationCard consultation={handleConsultation}/></div>
+          <div className="text-white text-2xl">
+            <ConsultationCard consultation={handleConsultation} />
+          </div>
         </section>
       )}
-       {admissions && (
+      {admissions && (
         <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
-          <div className="text-white text-2xl"><AddmisionsCard admission={handleAdmissions}/></div>
+          <div className="text-white text-2xl">
+            <AddmisionsCard admission={handleAdmissions} />
+          </div>
         </section>
-      )} 
-       {appoitments && (
+      )}
+      {appoitments && (
         <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
-          <div className="text-white text-2xl"><Appoitments appoitments={handleAppoitments}/></div>
+          <div className="text-white text-2xl">
+            <Appoitments appoitments={handleAppoitments} />
+          </div>
+        </section>
+      )}
+      {referalls && (
+        <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
+          <div className="text-white text-2xl">
+            <ReferralsCard referalls={handleReferalls} />
+          </div>
         </section>
       )}
 
@@ -127,7 +146,12 @@ const DataNumber = () => {
         {/* stats and chart */}
         <section>
           {' '}
-          <Stats consultation={handleConsultation} admission={handleAdmissions} appoitments={handleAppoitments}/>
+          <Stats
+            consultation={handleConsultation}
+            admission={handleAdmissions}
+            appoitments={handleAppoitments}
+            referalls={handleReferalls}
+          />
         </section>
 
         <section>

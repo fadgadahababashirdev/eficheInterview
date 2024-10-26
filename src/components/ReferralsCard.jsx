@@ -4,7 +4,7 @@ import { GoPeople } from 'react-icons/go';
 import { IoPersonOutline } from 'react-icons/io5';
 import { LiaTimesSolid } from 'react-icons/lia';
 
-const Appoitments = ({ appoitments }) => {
+const ReferralsCard = ({ referalls }) => {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -21,12 +21,12 @@ const Appoitments = ({ appoitments }) => {
         <div className="bg-white p-4 border-red-300 rounded-lg w-[40rem]">
           <div className="flex justify-between items-center mb-4">
             <div>
-              <h1 className="text-black">Appoitments</h1>
+              <h1 className="text-black">Referalls</h1>
             </div>
             <div>
               <LiaTimesSolid
                 className="text-black cursor-pointer"
-                onClick={appoitments}
+                onClick={referalls}
               />
             </div>
           </div>
@@ -37,7 +37,7 @@ const Appoitments = ({ appoitments }) => {
                   <IoPersonOutline className="text-[#27a376]" />
                 </div>
                 <h1 className="text-[#687588] text-[.9rem] my-4">
-                  Current Appoitments{' '}
+                  Current referalls{' '}
                 </h1>
                 <h1 className="para text-black">10</h1>
               </div>
@@ -46,7 +46,7 @@ const Appoitments = ({ appoitments }) => {
                   <GoPeople className="text-[#27a376]" />
                 </div>
                 <h1 className="text-[#687588] text-[.9rem] my-4">
-                  Upcoming appoitments
+                  Upcoming referalls
                 </h1>
                 <h1 className="para text-black">05</h1>
               </div>
@@ -58,4 +58,4 @@ const Appoitments = ({ appoitments }) => {
   );
 };
 
-export default Appoitments;
+export default ReferralsCard;
