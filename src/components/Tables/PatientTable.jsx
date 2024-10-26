@@ -104,7 +104,7 @@ const PatientTable = () => {
       date: '2024/08/06 09:32:21',
       address: 'Gasabo',
       phone: '0789650093',
-    }
+    },
     // Add other patients...
   ];
 
@@ -214,40 +214,49 @@ const PatientTable = () => {
               </td>
             </tr>
           ))}
-        </tbody> 
-        
-      </table> 
+        </tbody>
+      </table>
       <div className="flex items-center justify-between px-4 pt-[2rem]  mt-[1rem] border-t">
-  {/* Left side pagination */}
-  <div className="flex items-center gap-2">
-    <button className="p-2 border rounded-lg  border-[#f5f5f7] hover:bg-gray-50">
-      <ChevronLeft className="w-4 h-4 text-gray-500" />
-    </button>
-    <button className="px-3 py-2 bg-[#f5f5f7] hover:bg-gray-50 text-xs rounded-lg ">1</button>
-    <button className="px-3 py-1 hover:bg-gray-50 text-xs rounded">2</button>
-    <button className="px-3 py-1 hover:bg-gray-50 text-xs rounded">3</button>
-    <span className="px-3 py-1">...</span>
-    <button className="px-3 py-1 hover:bg-gray-50 text-xs rounded">10</button>
-    <button className="p-2 border rounded hover:bg-gray-50">
-      <ChevronRight className="w-4 h-4 text-black" />
-    </button>
-  </div>
+        {/* Left side pagination */}
+        <div className="flex items-center gap-2">
+          <button className="p-2 border rounded-lg  border-[#f5f5f7] hover:bg-gray-50">
+            <ChevronLeft className="w-4 h-4 text-gray-500" />
+          </button>
+          <button className="px-3 py-2 bg-[#f5f5f7] hover:bg-gray-50 text-xs rounded-lg ">
+            1
+          </button>
+          <button className="px-3 py-1 hover:bg-gray-50 text-xs rounded">
+            2
+          </button>
+          <button className="px-3 py-1 hover:bg-gray-50 text-xs rounded">
+            3
+          </button>
+          <span className="px-3 py-1">...</span>
+          <button className="px-3 py-1 hover:bg-gray-50 text-xs rounded">
+            10
+          </button>
+          <button className="p-2 border rounded hover:bg-gray-50">
+            <ChevronRight className="w-4 h-4 text-black" />
+          </button>
+        </div>
 
-  {/* Right side info and dropdown */}
-  <div className="flex items-center gap-4 ">
-    <span className="text-gray-500 text-xs">Showing 1 to 8 of 50 entries</span>
-    <div className="flex items-center gap-2">
-      <span className="text-gray-500 text-xs">Show</span>
-      <select className="border rounded text-xs p-1 pr-8 appearance-none bg-transparent">
-        <option value="8 ">8</option>
-        <option value="10">10</option>
-        <option value="25">25</option>
-        <option value="50">50</option>
-      </select>
-      <ChevronDown className="w-4 h-4 text-gray-500 -ml-6 pointer-events-none" />
-    </div>
-  </div>
-</div>
+        {/* Right side info and dropdown */}
+        <div className="flex items-center gap-4 ">
+          <span className="text-gray-500 text-xs">
+            Showing 1 to 8 of 50 entries
+          </span>
+          <div className="flex items-center gap-2">
+            <span className="text-gray-500 text-xs">Show</span>
+            <select className="border rounded text-xs p-1 pr-8 appearance-none bg-transparent">
+              <option value="8 ">8</option>
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+            </select>
+            <ChevronDown className="w-4 h-4 text-gray-500 -ml-6 pointer-events-none" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
