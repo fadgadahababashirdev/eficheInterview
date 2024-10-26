@@ -7,15 +7,21 @@ import DataNumberTwo from './DataNumberTwo';
 import { Link } from 'react-router-dom';
 import ConsultationCard from '@/components/ConsultationCard';
 import AddmisionsCard from "@/components/AddmisionsCard"
+import Appoitments from '@/components/AppoitmentsCard';
 
 const DataNumber = () => {
   const [consultationNumber, setConsultationNumber] = useState(false); 
   const [admissions, setAdmissions] = useState(false);
+  const [appoitments , setAppoitments] = useState(false)
   const handleConsultation = () => {
     setConsultationNumber(!consultationNumber);
   }; 
   const handleAdmissions = () => {
     setAdmissions(!admissions);
+  }; 
+
+  const handleAppoitments = () => {
+    setAppoitments(!appoitments);
   };
   return (
     <>
@@ -28,6 +34,11 @@ const DataNumber = () => {
        {admissions && (
         <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
           <div className="text-white text-2xl"><AddmisionsCard admission={handleAdmissions}/></div>
+        </section>
+      )} 
+       {appoitments && (
+        <section className="fixed  inset-0 bg-green-500 bg-opacity-50 z-50 flex items-center justify-center">
+          <div className="text-white text-2xl"><Appoitments appoitments={handleAppoitments}/></div>
         </section>
       )}
 
@@ -116,7 +127,7 @@ const DataNumber = () => {
         {/* stats and chart */}
         <section>
           {' '}
-          <Stats consultation={handleConsultation} admission={handleAdmissions}/>
+          <Stats consultation={handleConsultation} admission={handleAdmissions} appoitments={handleAppoitments}/>
         </section>
 
         <section>
