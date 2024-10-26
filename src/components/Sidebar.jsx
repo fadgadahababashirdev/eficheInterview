@@ -35,11 +35,11 @@ const Sidebar = () => {
           </Link>
           {/* person */}
 
-          <div className="flex justify-center items-center mt-[1rem] ">
+          <div className="flex justify-center items-center mt-[1rem]  ">
             <div className="relative group">
-              <div className=" opacity-0 group-hover:opacity-100 text-xs p-1 py-2 ml-[2rem] mb-[.4rem] bg-black rounded-md px-2 para  text-white">
+              <div className=" opacity-0 group-hover:opacity-100 text-xs p-1 py-2 ml-[2rem] mb-[.4rem] bg-[#202124] rounded-md px-2 para  text-white">
                 <div>My patients</div>
-                <div className="w-3 h-3 bg-black ml-3 rotate-45 mb-[-.7rem]"></div>
+                <div className="w-3 h-3 bg-[#202124] ml-2 rotate-45 mb-[-.7rem]"></div>
               </div>
               <div className="flex justify-center">
                 <GoPersonAdd className="text-[#a0aec0] cursor-pointer text-[1rem]" />
@@ -48,16 +48,41 @@ const Sidebar = () => {
           </div>
 
           {/* calender */}
-          <div className="flex justify-center my-[2rem]">
-            <Calendar className="text-[#a0aec0] text-[1rem]" />
+          <div className="flex justify-center items-center  ">
+            <div className="relative group">
+              <div className=" opacity-0 group-hover:opacity-100 text-xs p-1 py-2 ml-[2rem] mb-[.4rem] bg-[#202124] rounded-md px-2 para  text-white">
+                <div>Past visits</div>
+                <div className="w-3 h-3 bg-[#202124] ml-2 rotate-45 mb-[-.7rem]"></div>
+              </div>
+              <div className="flex justify-center">
+                <Calendar className="text-[#a0aec0] cursor-pointer text-[1rem]" />
+              </div>
+            </div>
           </div>
           {/*clipboard list */}
-          <div className="flex justify-center my-[2rem]">
-            <ClipboardList className="text-[#a0aec0] text-[1rem]" />
+          <div className="flex justify-center items-center  ">
+            <div className="relative group">
+              <div className=" opacity-0 group-hover:opacity-100 text-xs p-1 py-2 ml-[2rem] mb-[.4rem] bg-[#202124] rounded-md px-2 para  text-white">
+                <div>Appoitments</div>
+                <div className="w-3 h-3 bg-[#202124] ml-3 rotate-45 mb-[-.7rem]"></div>
+              </div>
+              <div className="flex justify-center">
+                <ClipboardList className="text-[#a0aec0] cursor-pointer text-[1rem]" />
+              </div>
+            </div>
           </div>
+
           {/*  */}
-          <div className="flex justify-center my-[2rem]">
-            <Users2 className="text-[#a0aec0] text-[1rem]" />
+          <div className="flex justify-center items-center  ">
+            <div className="relative group">
+              <div className=" opacity-0 group-hover:opacity-100 text-xs p-1 py-2 mr-[-4rem] mb-[.4rem] bg-[#202124] rounded-md px-2 para  text-white">
+                <div>Bed management</div>
+                <div className="w-3 h-3 bg-[#202124] ml-2 rotate-45 mb-[-.7rem]"></div>
+              </div>
+              <div className="flex justify-center">
+                <Users2 className="text-[#a0aec0] cursor-pointer text-[1rem]" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
