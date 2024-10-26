@@ -19,7 +19,7 @@ const Appoitments = ({ appoitments }) => {
           mounted ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'
         }`}
       >
-        <div className="bg-white p-[2rem] border-red-300 rounded-lg w-[40rem]">
+        <div className="bg-white p-[2rem] border-red-300 rounded-lg w-full md:w-[40rem]">
           <div className="flex justify-between items-center mb-4">
             <div>
               <h1 className="text-black">Appoitments</h1>
